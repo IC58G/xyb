@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>笑鱼帮——陪你水第一份工作</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://raw.githubusercontent.com/IC58G/xyb/main/image/b1.jpeg'); /* 背景图片路径 */
+            background-size: cover; /* 确保背景图覆盖整个页面 */
+            background-position: center; /* 背景图居中 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        /* 默认浅色模式 */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* 上对齐 */
+            max-width: 1000px; /* 增加最大宽度 */
+            width: 100%;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+        .left-section {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9); /* 设定半透明白色背景 */
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1; /* 使左侧部分占用剩余空间 */
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .download-buttons {
+            margin-top: 20px;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+        }
+        .ios {
+            background-color: #007aff;
+        }
+        .ios:hover {
+            background-color: #005bb5;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column; /* 纵向排列标题和视频 */
+            align-items: center; /* 居中对齐 */
+            flex: 1; /* 使右侧视频部分占用剩余空间 */
+            max-width: 300px; /* 设置最大宽度为300px */
+            margin-left: 40px; /* 增加左侧边距 */
+        }
+        h2 {
+            margin: 0; /* 去掉标题的默认外边距 */
+        }
+        video {
+            width: 100%; /* 使视频宽度占满容器 */
+            height: auto; /* 自适应高度 */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-top: 10px; /* 视频与标题间距 */
+        }
+        /* 联系信息和版权 */
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+        <img src="https://hub.gitmirror.com/https://raw.githubusercontent.com/IC58G/xyb/main/image/logo.jpg" alt="APP Logo" class="logo">
+        <h1>笑鱼帮</h1>
+        <p>書山有路勤爲徑，學海無涯苦作舟。</p>
+        <h2>Android客户端</h2>
+        <div class="download-buttons">
+            <a href="https://hub.gitmirror.com/https://github.com/IC58G/xyb/releases/download/start/xyb.apk" class="download-button ios">笑鱼帮</a>
+            <a href="https://hub.gitmirror.com/https://github.com/IC58G/xyb/releases/download/start/wx.apk" class="download-button android">微信优化版</a>
+            <div class="footer">
+                <p>版权所有 © 2024 公众耗</p>
+                <p>联系方式：回复：爱鱼才能躺</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <h2>演示视频</h2>
+        <video src="https://hub.gitmirror.com/https://github.com/IC58G/xyb/blob/main/video/demo.mp4" autoplay loop muted controls></video>
+    </div>
+</div>
+</body>
+</html>
